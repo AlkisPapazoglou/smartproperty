@@ -1,0 +1,62 @@
+img {
+    overflow-clip-margin: content-box;
+}
+
+.landing {
+    margin: 0, 0, 0, 0;
+    height: 960px;
+    width: 1900px;
+}
+
+.headerlogo {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.material-icons-outlined {
+    color: white;
+    margin-right: 10px;
+}
+
+.socialicons {
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoicon {
+    height: 200px;
+    width: 200px;
+    color: white;
+    margin-right: 30px;
+}
+
+.logobox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    height: 255px ;
+    width: 565px;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 685px;
+    z-index: 2;
+}
+
+.serviceicon {
+    height: 40px;
+    width: 40px;
+
+}
