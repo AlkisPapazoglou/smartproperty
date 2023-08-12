@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+  
 header {
     height: 60px;
     display: flex;
@@ -145,22 +149,21 @@ svg {
 
 .pbox {
     background-color: #f8f8f8;
-    padding: 0 450px ;
+    text-align: center;
     margin: 20px 0;
+    padding: 0 250px;
+
 }
 
 .grid {
     display: grid;
-    padding: 20px 400px 100px 400px;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: space-between;
+    grid-template-columns: 340px 340px 340px;
+    padding-bottom: 100px;    justify-content: center;
     gap: 40px;
 }
 
 .servicebox {
     height: 450px;
-    width: 340px;
     display: flex;
     flex-direction: column;
     padding: 0 45px;
@@ -191,6 +194,7 @@ svg {
 
 .contact {
     display: flex;
+    width: 300px;
     flex-direction: column;
     gap: 20px;
     align-items: start;
@@ -211,8 +215,8 @@ svg {
     background-color: #1c1c1c;
     display: grid;
     gap: 100px;
-    padding: 100px 540px 250px 590px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 300px 300px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 100px;
 }
