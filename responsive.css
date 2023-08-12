@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+    .landing {
+        background-image: url(img/phone.jpg);
+        height: 734px;
+    }
+    
+    .logobox {
+        scale: 70%;
+    }
+
+    .pbox {
+        padding: 0 20px;
+    }
+  }

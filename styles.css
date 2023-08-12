@@ -88,7 +88,7 @@ h6 {
 
 p {
     margin: 0 0 0 0;
-    font-size: 24px;
+    font-size: 8;
     font-weight: 400;
     text-align: center;
     line-height: 140%;
@@ -218,5 +218,5 @@ svg {
     grid-template-columns: 300px 300px;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding: 100px 0;
 }
