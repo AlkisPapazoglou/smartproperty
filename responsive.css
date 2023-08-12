@@ -4,6 +4,10 @@
         padding: 30px;
     }
 
+    .info {
+        margin-right: 10px;
+    }
+
     .info1 {
         display: none;
     }
@@ -25,6 +29,110 @@
         margin: 0;
     }
 
+    p {
+        font-size: 16px;
+    }
+
+    .h3container1 {
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .h3textbox1 {
+        width: 180px;
+    }
+
+    svg {
+        width: 350px;
+        bottom: 18px;
+    }
+
+    .h3container2 {
+        padding: 40px 0px; 
+        width: 100%;
+    }
+
+    .h3textbox2 {
+        width: 260px
+    }
+
+    .servicebox {
+        height: 380px;
+        width: 300px;
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .servicetext {
+        padding: 10px;
+    }
+
+    .servicegrid {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        align-items: center;
+        gap: 40px;
+        padding: 0 0 40px 0;
+    }
+
+    .black {
+        padding: 40px 100px 0 100px;
+    }
+
+    .contactgrid {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0 200px 0;
+        gap: 80px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 365px) {
+    
+    header {
+        padding: 10px 10px 10px 30px;
+    }
+
+    .info {
+        margin-right: 10px;
+    }
+
+    .info1 {
+        display: none;
+    }
+
+    .landing {
+        background-image: url(/img/phone365.jpg);
+        background-size: cover;
+        height: 560px;
+    }
+    
+    .logobox {
+        padding-top: 140px;
+        scale: 50%;
+        gap: 40px;
+    }
+
+    .pbox {
+        padding: 0 30px;
+        margin: 0;
+    }
+
     .h3container1 {
         padding: 40px 0;
         width: 100%;
@@ -39,38 +147,27 @@
     }
 
     svg {
-        width: 350px;
+        width: 300px;
         bottom: 18px;
     }
 
     .h3container2 {
-        padding: 40px 60px; 
-    }
-
-    .h3textbox2 {
+        padding: 40px 0px; 
         width: 100%;
     }
 
-    .servicebox {
-        scale: 80%;
-        height: auto;
-    }
-
-    .grid {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 0;
-        gap: 0;
+    .h3textbox2 {
+        width: 260px
     }
 
     .black {
-        padding: 40px 100px 0 100px;
+        padding: 40px 50px 0 50px;
     }
 
     .contactgrid {
         display: flex;
         flex-direction: column;
-        padding: 100px 0;
+        padding: 70px 0 100px 0;
         gap: 80px;
     }
 
