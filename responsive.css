@@ -1,14 +1,78 @@
 @media only screen and (max-width: 600px) {
+    
+    header {
+        padding: 30px;
+    }
+
+    .info1 {
+        display: none;
+    }
+
     .landing {
         background-image: url(img/phone.jpg);
-        height: 734px;
+        background-size: cover;
+        height: 600px;
     }
     
     .logobox {
-        scale: 70%;
+        padding-top: 140px;
+        scale: 60%;
+        gap: 40px;
     }
 
     .pbox {
         padding: 0 20px;
+        margin: 0;
     }
+
+    .h3container1 {
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .h3textbox1 {
+        width: 180px;
+    }
+
+    svg {
+        width: 350px;
+        bottom: 18px;
+    }
+
+    .h3container2 {
+        padding: 40px 60px; 
+    }
+
+    .h3textbox2 {
+        width: 100%;
+    }
+
+    .servicebox {
+        scale: 80%;
+        height: auto;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        gap: 0;
+    }
+
+    .black {
+        padding: 40px 100px 0 100px;
+    }
+
+    .contactgrid {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0;
+        gap: 80px;
+    }
+
+
   }
