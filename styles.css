@@ -158,7 +158,7 @@ svg {
     background-color: #f8f8f8;
     text-align: center;
     margin: 20px 0;
-    padding: 0 250px;
+    padding: 0 360px;
 
 }
 
@@ -181,7 +181,7 @@ svg {
     gap: 20px;
     align-items: center;
     padding: 40px 0 0 0;
-    border: #1e1e1e;
+    border: #3f3f3f;
     border-style: solid;
     border-radius: 2px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
@@ -190,7 +190,7 @@ svg {
 .servicetext {
     display: flex;
     flex-direction: column;
-    border-top: black;
+    border-top: #3f3f3f;
     border-radius: 2px;
     border-top-style: solid;
     height: 280px;
